@@ -1,0 +1,41 @@
+public class MyFirstJavaProgram {
+
+   /* This is my first java program.
+    * This will print 'Hello World' as the output
+    */
+
+   public static void main(String []args) {
+      System.out.println("Hello World"); // prints Hello World
+   }
+
+C:\> javac MyFirstJavaProgram.java
+C:\> java MyFirstJavaProgram 
+Hello World
+
+class FreshJuice {
+   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+   FreshJuiceSize size;
+}
+
+public class FreshJuiceTest {
+
+   public static void main(String args[]) {
+      FreshJuice juice = new FreshJuice();
+      juice.size = FreshJuice.FreshJuiceSize.MEDIUM ;
+      System.out.println("Size: " + juice.size);
+   }
+
+public class MyFirstJavaProgram {
+
+   /* This is my first java program.
+    * This will print 'Hello World' as the output
+    * This is an example of multi-line comments.
+    */
+
+   public static void main(String []args) {
+      // This is an example of single line comment
+      /* This is also an example of single line comment. */
+      System.out.println("Hello World");
+   }
+}
+}
